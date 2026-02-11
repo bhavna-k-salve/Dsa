@@ -18,12 +18,12 @@ class Node:
     
     
     
-def pre_order(node):
+def in_order(node):
   if node == None:
     return 
-  pre_order(node.left)
+  in_order(node.left)
   print(node.item,end=" ")
-  pre_order(node.right)    
+  in_order(node.right)    
 
  
   
@@ -47,5 +47,5 @@ p6.left = p8
 p6.right = p9  
       
     
-pre_order(p1)    
+in_order(p1)    
         

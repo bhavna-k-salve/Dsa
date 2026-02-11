@@ -15,7 +15,6 @@ class Node:
     self.right = right
     
     
-    
 def pre_order(node):
   if node == None:
     return 
@@ -27,7 +26,8 @@ def pre_order(node):
   
 p1 = Node(5) 
 p2 = Node(3) 
-p3 = Node(4) 
+p3 = Node(4)    
+
 p4 = Node(2) 
 p5 = Node(9) 
 p6 = Node(8) 
